@@ -48,6 +48,8 @@ with open(vrije_ams_logo_path, "rb") as image_file:  # Read and encode Vrije Ams
 # Initialize the Dash app
 app = dash.Dash(__name__)
 
+server=app.server
+
 # Banner with logos on the top
 top_banner = html.Div(
     children=[
