@@ -3,3 +3,4 @@ dash-core-components==2.0.0
 geopandas==0.12.2
 plotly==5.18.0
 base64
+gunicorn
